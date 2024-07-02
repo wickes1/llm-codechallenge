@@ -20,11 +20,11 @@ solver = SolverFactory('glpk')
 result = solver.solve(model)
 ```
 
-### Example
+### Input
 We would like the user to provide a request in the following format:
 "add a constraint of 2X + 6Y > 30 in our model."
 
-Expected Code
+### Output
 The resulting code should be:
 ``` python
 from pyomo.environ import *
